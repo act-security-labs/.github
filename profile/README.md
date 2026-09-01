@@ -1,4 +1,4 @@
-## Amphi: Act Security Labs free, open-source tools for cloud IAM
+## Amphi: free, open-source tools for cloud IAM
 
 ![Amphi header](./amphi-header.png)
 
