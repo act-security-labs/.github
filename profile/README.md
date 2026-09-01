@@ -102,7 +102,6 @@ You'll find projects covering areas such as:
 - IAM action expansion and minimization: [iam-expand](https://github.com/act-security-labs/iam-expand) and [iam-shrink](https://github.com/act-security-labs/iam-shrink)
 - Cloud authorization data collection and analysis: [iam-collect](https://github.com/act-security-labs/iam-collect) and [iam-lens](https://github.com/act-security-labs/iam-lens)
 - Reusable TypeScript libraries: [cli](https://github.com/act-security-labs/cli), [job](https://github.com/act-security-labs/job), and [log](https://github.com/act-security-labs/log)
-- GitHub Actions and developer automation: [prettier-config](https://github.com/act-security-labs/prettier-config), [dual-npm-publish-action](https://github.com/act-security-labs/dual-npm-publish-action), and [publishing](https://github.com/act-security-labs/publishing)
 
 If you're building your own cloud security or IAM tooling, these projects are intended to be useful building blocks.
 
@@ -133,7 +132,7 @@ When we build something useful, we'd rather put it in the hands of practitioners
 
 Many of the projects here began as part of **Cloud Copilot**.
 
-Those projects are now moving to Act Security Labs, where they will continue to be developed as open-source software alongside new tools from the Act Security team.
+Those projects are now moving to Act Security Labs, where they will continue to be developed as open-source software alongside new tools from the Act Security team. All packages that were deployed in the `@cloud-copilot/` npm namespace will be dual deployed as `@actsecurity/<package>` and `@cloud-copilot/<package>` packages to allow teams time to migrate their imports and dependencies.
 
 If you've used or contributed to a Cloud Copilot project before: welcome to the new home.
 
@@ -159,7 +158,7 @@ Test policies and access changes as part of CI/CD before they reach production.
 
 ### In your browser
 
-Many of our IAM tools are also available through **Amphi**, Act's free collection of cloud access tools.
+Many of our IAM tools are also available through [**Amphi**](https://act.security), Act's free collection of cloud access tools.
 
 ---
 
